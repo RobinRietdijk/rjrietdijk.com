@@ -31,25 +31,41 @@
 </template>
 
 <script>
+import linkedIn from "@/assets/LinkedIn.png";
+import gitHub from "@/assets/GitHub.png";
+import gitLab from "@/assets/GitLab.png";
+
 export default {
   data: () => ({
     cards: [
       {
-        title: "Pre-fab homes",
-        src: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
-        ref: "https://google.com",
+        title: "Curriculum vitae",
+        src: "",
+        ref: "https://cv.rjrietdijk.com",
+        flex: 7,
+      },
+      {
+        title: "LinkedIn",
+        src: linkedIn,
+        ref: "https://www.linkedin.com/in/rjrietdijk/",
+        flex: 5,
+      },
+      {
+        title: "Github",
+        src: gitHub,
+        ref: "https://www.github.com/RobinRietdijk",
         flex: 4,
       },
       {
-        title: "Favorite road trips",
-        src: "https://cdn.vuetifyjs.com/images/cards/road.jpg",
-        ref: "https://google.com",
+        title: "GitLab",
+        src: gitLab,
+        ref: "https://www.gitlab.com/RobinRietdijk",
         flex: 4,
       },
       {
-        title: "Best airlines",
-        src: "https://cdn.vuetifyjs.com/images/cards/plane.jpg",
-        ref: "https://google.com",
+        title: "",
+        src: "",
+        ref: "/",
         flex: 4,
       },
     ],

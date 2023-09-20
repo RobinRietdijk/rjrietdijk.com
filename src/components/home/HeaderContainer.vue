@@ -1,9 +1,14 @@
 <template>
+  <div class="py-5" />
+
   <v-img height="300" src="@/assets/logo.png" />
 
-  <div class="text-body-2 font-weight-light mb-n1 text-center">Welcome to</div>
+  <h1 class="text-h3 font-weight-bold text-center">Robin Rietdijk</h1>
 
-  <h1 class="text-h2 font-weight-bold text-center">RJRietdijk.com</h1>
+  <div class="text-body-2 font-weight-light mt-1 text-center">
+    Hi, welcome to my website. This is my linktree where you can find some of my
+    work and other usefull pages.
+  </div>
 
-  <div class="py-14" />
+  <div class="py-3" />
 </template>
