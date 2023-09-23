@@ -129,11 +129,22 @@ export default {
 }
 
 .v-card-actions {
-  height: 15%;
+  position: relative;
+  height: 12%;
+}
+
+.v-card-actions:after {
+  content: "";
+  background: #00000050;
+  position: absolute;
+  bottom: 4px;
+  left: 25%;
+  height: 1px;
+  width: 50%;
 }
 
 .v-window {
-  height: 85%;
+  height: 88%;
 }
 
 .v-window-item {
