@@ -12,7 +12,6 @@ import DefaultView from "./View.vue";
 <style scoped>
 .wrap {
   position: relative;
-  overflow: hidden;
 }
 
 .bg {
@@ -26,5 +25,11 @@ import DefaultView from "./View.vue";
 
 .content {
   position: relative;
+}
+</style>
+
+<style>
+html {
+  overflow-y: auto;
 }
 </style>
