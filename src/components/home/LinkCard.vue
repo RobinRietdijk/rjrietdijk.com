@@ -2,7 +2,7 @@
   <v-card
     class="mx-auto flex-container"
     max-width="60%"
-    height="400px"
+    height="600px"
     color="rgba(255,255,255,0.5)"
   >
     <v-card-actions class="justify-space-between header">
@@ -44,7 +44,7 @@
                     :src="card.src"
                     class="align-end"
                     gradient="to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)"
-                    height="140px"
+                    height="200px"
                     cover
                   >
                     <v-card-title class="text-white text-h5">{{
@@ -75,25 +75,25 @@ let pro_info = {
       title: "My personlised CV webpage",
       src: CV,
       ref: "https://cv.rjrietdijk.com",
-      flex: 12,
-    },
-    {
-      title: "Github",
-      src: gitHub,
-      ref: "https://www.github.com/RobinRietdijk",
-      flex: 4,
-    },
-    {
-      title: "GitLab",
-      src: gitLab,
-      ref: "https://www.gitlab.com/RobinRietdijk",
-      flex: 4,
+      flex: 7,
     },
     {
       title: "LinkedIn",
       src: linkedIn,
       ref: "https://www.linkedin.com/in/rjrietdijk/",
-      flex: 4,
+      flex: 5,
+    },
+    {
+      title: "Github",
+      src: gitHub,
+      ref: "https://www.github.com/RobinRietdijk",
+      flex: 6,
+    },
+    {
+      title: "GitLab",
+      src: gitLab,
+      ref: "https://www.gitlab.com/RobinRietdijk",
+      flex: 6,
     },
   ],
 };
