@@ -1,15 +1,16 @@
 <template>
-  <v-container class="fill-height">
+  <v-container class="">
     <v-responsive class="align-center fill-height">
-      <HeaderContainer />
+      <header-container />
 
-      <LinkCard />
+      <link-card />
     </v-responsive>
   </v-container>
 </template>
 
 <script setup>
-import HeaderContainer from "@/components/HeaderContainer.vue";
-import LinkCard from "@/components/LinkCard.vue";
+import HeaderContainer from "@/components/home/HeaderContainer.vue";
+import LinkCard from "@/components/home/LinkCard.vue";
 </script>
+
 
