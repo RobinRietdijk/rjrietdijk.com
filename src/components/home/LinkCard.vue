@@ -1,7 +1,7 @@
 <template>
   <v-card
     class="mx-auto flex-container"
-    max-width="60%"
+    max-width="700px"
     height="600px"
     color="rgba(255,255,255,0.5)"
   >
@@ -31,7 +31,8 @@
             <v-col
               v-for="card in window.cards"
               :key="card.title"
-              :cols="card.flex"
+              cols="12"
+              :sm="card.flex"
             >
               <v-hover v-slot="{ isHovering, props }">
                 <v-card

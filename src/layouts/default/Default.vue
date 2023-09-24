@@ -18,7 +18,7 @@ import DefaultView from "./View.vue";
   position: absolute;
   left: 0;
   top: 0;
-  height: auto;
+  height: 100%;
   width: 100%;
   opacity: 0.8;
 }
